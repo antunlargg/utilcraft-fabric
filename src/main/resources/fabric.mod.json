@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "chestcraft",
+  "version": "${version}",
+  "name": "Chestcraft",
+  "description": "Client-side crafting and armor slots inside chest GUI.",
+  "authors": [
+    "xntnlr"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "net.xntnlr.chestcraft.Chestcraft"
+    ],
+    "client": [
+      "net.xntnlr.chestcraft.client.ChestcraftClient"
+    ]
+  },
+  "mixins": [
+    "chestcraft.client.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "fabric-api": ">=0.141.6+1.21.11",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}

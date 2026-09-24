@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "net.xntnlr.chestcraft.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "HandledScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
